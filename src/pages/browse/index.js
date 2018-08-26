@@ -7,7 +7,7 @@ const Browse = () => (
     <Title>Navegar</Title>
 
     <List>
-      <Playlist href="">
+      <Playlist to="/playlists/1">
         <img
           src="https://toomuchmusic.files.wordpress.com/2012/07/rihanna-rated-r.jpg"
           alt="Playlist"
@@ -15,7 +15,7 @@ const Browse = () => (
         <strong>This is Rihanna</strong>
         <p>Os maiores sucessos de Rihanna</p>
       </Playlist>
-      <Playlist href="">
+      <Playlist to="/playlists/1">
         <img
           src="https://toomuchmusic.files.wordpress.com/2012/07/rihanna-rated-r.jpg"
           alt="Playlist"
@@ -23,15 +23,7 @@ const Browse = () => (
         <strong>This is Rihanna</strong>
         <p>Os maiores sucessos de Rihanna</p>
       </Playlist>
-      <Playlist href="">
-        <img
-          src="https://toomuchmusic.files.wordpress.com/2012/07/rihanna-rated-r.jpg"
-          alt="Playlist"
-        />
-        <strong>This is Rihanna</strong>
-        <p>Os maiores sucessos de Rihanna</p>
-      </Playlist>
-      <Playlist href="">
+      <Playlist to="/playlists/1">
         <img
           src="https://toomuchmusic.files.wordpress.com/2012/07/rihanna-rated-r.jpg"
           alt="Playlist"
