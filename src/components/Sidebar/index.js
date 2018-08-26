@@ -57,7 +57,8 @@ const Sidebar = () => (
       </Nav>
     </div>
     <NewPlaylist>
-      <img src={AddPlaylistIcon} alt="Adicionar playlist" />Nova playlist
+      <img src={AddPlaylistIcon} alt="Adicionar playlist" />
+      Nova playlist
     </NewPlaylist>
   </Container>
 );

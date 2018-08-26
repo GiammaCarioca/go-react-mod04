@@ -1,6 +1,8 @@
 import { injectGlobal } from 'styled-components';
 
-import 'font-awesome/css/font-awesome.css';
+// import 'font-awesome/css/font-awesome.css';
+
+import 'rc-slider/assets/index.css';
 
 injectGlobal`
   * {
