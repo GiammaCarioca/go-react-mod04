@@ -1,7 +1,22 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+import { Spinner } from '../../components/Loading/styles';
 
 export const Container = styled.div`
   margin-top: 30px;
+
+  ${Spinner} {
+    height: 48px;
+  }
+
+  ${props =>
+    props.loading &&
+    css`
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    `};
 `;
 
 export const Header = styled.header`
@@ -59,7 +74,7 @@ export const SongList = styled.table`
     color: #b3b3b3;
     letter-spacing: 1.11px;
     font-weight: normal;
-    text-transfomr: uppercase;
+    text-transform: uppercase;
     padding: 5px 10px;
 
     &:last-child {
